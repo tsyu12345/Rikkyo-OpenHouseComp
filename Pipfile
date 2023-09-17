@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+req = "pip freeze > ./reqirements.txt
+send = "cp mymodel.ipynb torchModel.ipynb G:/マイドライブ/機械学習コンペ/高林
+
+[packages]
+pandas = "*"
+matplotlib = "*"
+numpy = "*"
+scikit-learn = "*"
+torch = "*"
+ipykernel = "*"
+xgboost = "*"
+lightgbm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
